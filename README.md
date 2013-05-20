@@ -7,19 +7,19 @@ INSTALLATION
 
 Procedure for building code using CMake:
 
-	[reverse\_byte\_ordering]$ mkdir build
+	[reverse_byte_ordering]$ mkdir build
 
-	[reverse\_byte\_ordering]$ cd build
+	[reverse_byte_ordering]$ cd build
 
-	[reverse\_byte\_ordering/build]$ cmake ..
+	[reverse_byte_ordering/build]$ cmake ..
 
-	[reverse\_byte\_ordering/build]$ make
+	[reverse_byte_ordering/build]$ make
 
 Note that the last two commands are executed inside the build directory.
 	
 Afterwards, your tree structure should look like this:
 
-	[reverse\_byte\_ordering]$ tree -L 2
+	[reverse_byte_ordering]$ tree -L 2
 	.
 	|-- CMakeLists.txt
 	|-- README.txt
@@ -31,11 +31,11 @@ Afterwards, your tree structure should look like this:
 	|	 |-- src
 	|-- src
 			|-- CMakeLists.txt
-			|-- reverse\_byte\_ordering.c
+			|-- reverse_byte_ordering.c
 
 and you can execute the program in the build/src directory as follows:
 
-	[masked_xcorr/build/src]$ ./reverse\_byte\_ordering
+	[masked_xcorr/build/src]$ ./reverse_byte_ordering
 
 For more information on using CMake, check out http://www.cmake.org/cmake/help/cmake_tutorial.html
 
